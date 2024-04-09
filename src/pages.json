@@ -1,0 +1,40 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/merchant/index",
+      "style": {
+        "navigationBarTitleText": "%pages.merchant.title%"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "%pages.my.title%"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "HiredChina.com",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    // "height": "70px",
+    "list": [
+      {
+        "pagePath": "pages/merchant/index",
+        "iconPath": "static/tab/services.png",
+        "selectedIconPath": "static/tab/servicesSelected.png",
+        "text": "%tabBar.merchant.text%"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/tab/me.png",
+        "selectedIconPath": "static/tab/meSelected.png",
+        "text": "%tabBar.my.text%"
+      }
+    ]
+  }
+}
