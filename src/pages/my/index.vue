@@ -2,8 +2,11 @@
   <view class="content">
     <view class="text-area">
       <text class="title">{{ t('pages.my.title') }}</text>
-
+    </view>
+    <view class="text-area">
       <text class="title">{{ t('pages.my.add') }}</text>
+    </view>
+    <view class="text-area">
       <text class="title">{{ t('pages.my.post') }}</text>
     </view>
 
@@ -27,7 +30,7 @@ const { t, locale } = useI18n({
     },
     'zh-Hans': {
       'pages.my.add': '创建',
-      'pages.my.post': '发布职'
+      'pages.my.post': '发布'
     }
   }
 })
